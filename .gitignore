@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+/media
+/staticfiles
+/static
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Distribución de paquetes
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de compilación
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Heroku
+Procfile
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
