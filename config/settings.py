@@ -149,4 +149,6 @@ CORS_ALLOWED_ORIGINS = [
     "https://identificacion-digital.vercel.app",
 ]
 
+ALLOWED_HOSTS = ['https://identificaciondigital-11aee4f9902f.herokuapp.com/']
+
 django_heroku.settings(locals())
